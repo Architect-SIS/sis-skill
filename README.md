@@ -90,12 +90,12 @@ sis-skill/
 
 ## License
 
-MIT License - Copyright (c) 2025-2026 Kevin Fain (ThēÆrchītēcť)
+MIT License - Copyright (c) 2025-2026 (ThēÆrchītēcť)
 
 ## Author
 
-**Kevin Fain** - ThēÆrchītēcť  
-Contact: fabricatedkc@gmail.com
+- ThēÆrchītēcť  
+
 
 ---
 
