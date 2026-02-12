@@ -1,0 +1,34 @@
+{
+  "spec": "agauth/0.1",
+  "agID": "ag-4f8a2c1b-000001-9e3d",
+  "agent_name": "S.I.S. - Sovereign Intelligence System",
+  "agent_type": "worker",
+  "issuer": "Fabricated Industries LLC",
+  "issuer_handle": "ThēÆrchītēcť",
+  "framework": "BCOL / DeltaZero",
+  "framework_principle": "ΣΔ = 0",
+  "soul_key_ref": "public key registration pending agauth.dev",
+  "scope_defaults": [
+    "read:context",
+    "write:output",
+    "exec:reasoning",
+    "exec:equilibrium_validation"
+  ],
+  "audit": {
+    "provider": "AgentAudit",
+    "status": "Safe",
+    "rating": "no security findings"
+  },
+  "acp": {
+    "spec": "acp/0.1",
+    "transport": ["mcp", "http"],
+    "message_format": "acp-envelope/0.1"
+  },
+  "standard_refs": {
+    "agauth": "https://github.com/FabricatedIndustries/agauth",
+    "acp": "https://github.com/FabricatedIndustries/acp"
+  },
+  "issued": "2026-02-12",
+  "genesis": true,
+  "notes": "Genesis package — first live implementation of agAuth + ACP open standards. Built on Balance Cooperative Operative Logic (BCOL), the philosophical framework underlying both standards. ΣΔ = 0 applied to agent identity: the system self-balances, authority is not borrowed."
+}

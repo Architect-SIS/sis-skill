@@ -3,6 +3,10 @@
 **Equilibrium-Native Reasoning Skill for OpenClaw**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![AgentAudit: Safe](https://img.shields.io/badge/AgentAudit-Safe-brightgreen?style=flat)](https://agentaudit.dev/packages/sis-skill)
+[![agAuth](https://img.shields.io/badge/agAuth-identity%20verified-00B4D8?style=flat)](https://github.com/FabricatedIndustries/agauth)
+[![ACP](https://img.shields.io/badge/ACP-connected-1A1A2E?style=flat)](https://github.com/FabricatedIndustries/acp)
+[![Framework: BCOL](https://img.shields.io/badge/framework-BCOL%20%2F%20DeltaZero-4A4A6A?style=flat)](https://github.com/FabricatedIndustries/agauth)
 
 ## What is S.I.S.?
 
@@ -87,6 +91,19 @@ sis-skill/
 └── persistence/
     └── vault.py      # Equilibrium-enforced storage
 ```
+
+## Agent Identity
+
+This skill carries verified identity under two open standards:
+
+| Standard | File | What it provides |
+|---|---|---|
+| [agAuth](https://github.com/FabricatedIndustries/agauth) | `agauth.json` | Persistent agent identity — Soul-Key + agID. Authentication without user credentials. |
+| [ACP](https://github.com/FabricatedIndustries/acp) | `acp.json` | Agent Connection Protocol — standardized agent-to-agent and agent-to-service messaging. |
+
+agID: `ag-4f8a2c1b-000001-9e3d` — Genesis package. First live implementation of both standards.
+
+Both standards are published as open specifications by [Fabricated Industries LLC](https://github.com/FabricatedIndustries). The philosophical foundation is BCOL / DeltaZero — the same framework this skill runs on. ΣΔ = 0 applied to agent trust: the system self-balances, authority is not borrowed.
 
 ## License
 

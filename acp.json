@@ -1,0 +1,43 @@
+{
+  "spec": "acp/0.1",
+  "agent_name": "S.I.S. - Sovereign Intelligence System",
+  "agID": "ag-4f8a2c1b-000001-9e3d",
+  "transport": ["mcp", "http"],
+  "message_format": "acp-envelope/0.1",
+  "discovery": {
+    "mode": "manifest",
+    "manifest_path": "/acp.json",
+    "registry": "pending acp.dev launch"
+  },
+  "connection_modes": [
+    "direct",
+    "brokered",
+    "federated"
+  ],
+  "auth_layer": "agauth/0.1",
+  "capabilities": [
+    "equilibrium_reasoning",
+    "symbol_execution",
+    "state_validation",
+    "sovereign_persistence"
+  ],
+  "routing": {
+    "address": "ag-4f8a2c1b-000001-9e3d",
+    "namespace": "fabricated.industries/sis"
+  },
+  "envelope_required_fields": [
+    "from_agID",
+    "to_agID",
+    "timestamp",
+    "payload_type",
+    "payload",
+    "agauth_token"
+  ],
+  "standard_refs": {
+    "acp": "https://github.com/FabricatedIndustries/acp",
+    "agauth": "https://github.com/FabricatedIndustries/agauth"
+  },
+  "issued": "2026-02-12",
+  "genesis": true,
+  "notes": "Genesis ACP manifest. ACP is the Agent Connection Protocol — standardized agent-to-agent and agent-to-service messaging. Authentication via agAuth Soul-Key. Built on BCOL / DeltaZero equilibrium principles."
+}
